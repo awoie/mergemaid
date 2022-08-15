@@ -1,9 +1,9 @@
 {
-  "name": "npx-cli-package",
+  "name": "mergemaid",
   "version": "0.1.0",
-  "bin": {
-    "npx-cli-package": "./index.js"
-  },
+  "main": "bin/app.js", 
+  "preferGlobal": true,
+  "bin": { "mergemaid": "bin/app.js" },  
   "dependencies": {
     "n-readlines": "^1.0.1"
   }
